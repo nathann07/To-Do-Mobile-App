@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# To-Do Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple cross-platform To-Do app built with React Native and Expo.
 
-## Get started
+## Requirements
 
-1. Install dependencies
+- **Node.js**: Ensure Node.js is installed on your machine. You can download it from [https://nodejs.org/](https://nodejs.org/).
+
+
+## Getting Started
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://gitlab.com/ntmebane/to-do-mobile-app.git
+   cd to-do-mobile-app
+   ```
+
+2. **Install Dependencies**:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Run the App**:
 
-   ```bash
+   - Start the Expo development server using:
+
+    ```bash
     npx expo start
-   ```
+    ```
 
-In the output, you'll find options to open the app in a
+4. **Testing the App**:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   - **Using an Emulator**: You can run the app on an Android or iOS emulator directly through the Expo server.
+   - **Using a Physical Device**: Scan the QR code with the Expo Go app on your mobile device. 
+     - **Note**: Expo Go must be installed on your mobile device for this option.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Features
 
-## Get a fresh project
+- **Add New Items**: Add items with a name and description.
+- **Edit and Delete Items**: Modify or delete items in the list.
+- **Persistent Storage**: The item list is stored locally using AsyncStorage.
+- **Responsive UI**: Basic styling and layout for a clean user interface.
 
-When you're ready, run:
+## Notes
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Make sure to use the Expo Go app to scan the QR code for a seamless testing experience.
+- This project is designed to be cross-platform and works on both iOS and Android devices.
